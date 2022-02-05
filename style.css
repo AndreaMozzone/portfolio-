@@ -21,6 +21,7 @@ h1 {
 }
 
 
+
 .conteiner-desktop {
     background-color: #FFFFFF;
     margin: auto;
@@ -56,6 +57,7 @@ h1 {
 
 .nav-desk { 
     display: block;
+    
     
     }
     
@@ -285,11 +287,11 @@ h1 {
     background-color: #FFFFFF;  
     border: 1px solid #dddfe5;
     border-radius: 8px; 
-    padding: 2%;
+    padding: 10px 10px; 
     margin: auto;
     text-align: center;
-    width: 500px;   
-    height: 400px;
+    width: 49%;
+    height: 356px;
 
 
 }

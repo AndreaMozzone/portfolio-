@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #995CEF;
+}
+
+
+.conteiner-desktop {
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 1400px
+
+}
+
+@media (max-width: 1400px) {
+    .conteiner-desktop {
+        background-color: #FFFFFF;
+        margin: auto;
+        width: 1200px;  
+    }
+}
+
+@media (max-width: 1200px) {
+    .conteiner-desktop {
+        background-color: #FFFFFF;
+        margin: auto;
+        width: 920px;  
+    }
+}
+
+@media (max-width: 920px) {
+    .conteiner-desktop {
+        background-color: #FFFFFF;
+        margin: 5vw;
+        width: 768px;  
+    }
+   
+  
+}
+
+.nav-desk { 
+    display: block;
+    
+    }
+    
+.nav-mobil{
+    display: none;
+    
+}
+
+.navmobil-style {
+    color: #995CEF;
+    margin: 0%;
+    list-style: none;
+}
+
+@media (max-width: 920px) {
+    .nav-desk {display: none;}
+    .nav-mobil {display: block;}
+}
+
+.header {
+    width: 100%;
+    padding: 50px;
+    
+ 
+}
+
+
+
+.nav ul {
+    margin: 0;
+    list-style: none;
+    padding: 64px;
+  display: flex;
+  justify-content: flex-end;
+
+    
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #2e2e31;
+    padding: 15px;
+
+   
+}
+
+
+
+
+
+
+.btn {
+    padding: 11px;
+   
+}
+
+.btn-primary {
+    background-color: #995CEF;
+    border-radius: 50px;
+
+}
+
+.btnhola {
+    color: white;
+}
+
+.btn-forms {
+   
+    margin-left: 10%;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 20%;
+    margin-top: 32px;
+
+  
+    
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.imagen1 {
+    display: block;
+
+}
+
+.imagen11 {
+    display: none;
+
+}
+
+@media (max-width: 768px) { 
+    .imagen1 {
+        display: none;
+    
+    }
+    
+    .imagen11 {
+        display: block;
+    
+    }
+
+    .conteiner {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        
+       
+    }
+
+    .columns {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      
+    }
+
+
+
+
+
+}
+
+#conocimientos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 47px;
+}
+
+.container-conocimientos {
+    
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+
+.title-conocimientos {
+    display: flex;  
+    justify-content: center;
+    font-weight: bold;
+    font-size: 45px;
+    padding-bottom: 12px;
+
+}
+
+.p-conocimientos {
+    text-align: center;
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card  {
+    background-color: #FFFFFF;  
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+    width: 260px;
+    margin: 10px;   
+    padding: 30px;  
+    text-align: center;
+    width: 30%;
+  
+  
+}
+
+#quote {
+    background-color: #995CEF;
+    color: white;
+    padding: 100px 227px;
+   text-align: center;
+}
+
+.quote-title {
+    padding: 50px;
+
+}
+
+#proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px;
+    justify-content: center;
+ 
+}
+
+.proyectos  {
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+
+  
+}
+
+.quote {
+  font-size: 80px;
+    
+}
+
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7%;  
+    justify-content: space-between;
+
+  
+
+   
+}
+
+
+.image-conteiner {
+    background-color: #FFFFFF;  
+    border: 1px solid #dddfe5;
+    border-radius: 8px; 
+    padding: 2%;
+    margin: auto;
+    text-align: center;
+    width: 500px;   
+    height: 400px;
+
+
+}
+
+.imagen-conteiner img {
+    width: 300px;
+    overflow: hidden;
+}
+
+.image-tex {    
+display: flex;
+justify-content: center;
+font-size: 25px;
+
+}   
+
+
+#contacto   {   
+    display: flex;
+    padding: 100px 40px 120px;
+    justify-content: center;
+    border: 2px solid rgb(230, 222, 222);
+    border-radius: 30px;
+  
+}
+
+.columns {
+    display: flex;
+  
+
+  
+    
+  
+}
+
+.contac { 
+   
+    width: 50% ;
+
+}
+
+.contac h2 p {
+    padding: 5px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 500px;
+
+
+   
+
+    
+
+}
+
+.list ul  {
+margin: 0; 
+list-style: none;
+padding: 5px;
+
+}
+
+
+.envelope {
+    color: #8338ec
+
+}
+
+.escribime {
+    width: 50%;
+    
+
+}
+
+.forms {
+    display: flex;
+    
+}
+
+#forms {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    border-radius: 20px;
+    flex-direction: column;
+    
+
+}
+
+.name-surname {
+    display: flex;
+
+}
+
+.font-form {    
+
+
+}
+
+.email-form {
+    width: 80%
+
+}
+
+.placeholder {
+    border-radius: 20px;
+    background-color: rgb(235, 228, 228);
+    border: 0
+  
+
+}
+
+.conteiner-textarea {
+    display: flex;
+    flex-wrap: nowrap;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.mensaje {
+    justify-content: right;
+}
+
+.textarea  {    
+    width: 80%;
+   margin-top: 40px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+    
+
+}
+
+#conteiner-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8338ec;
+    color: white
+    padding: 80px 20px 60px;
+    text align: center
+    
+    
+}
+
+.footer-mobil {
+    display: none;
+    color: #8338ec;
+    text-align: center;
+   
+
+
+
+}
+
+
+
+.nav-footer ul   {
+    display: inline-block;
+    list-style: none;
+ 
+    
+  
+  
+
+}
+
+.nav-footer {
+    text-align: center;
+    justify-content: center;
+   
+    
+}
+
+.icons-footers {
+
+    display: inline-flex;
+    justify-content: center;
+    padding: 35px;
+    font-size: 30px;
+   
+    
+}
+
+.icon-content {
+
+ margin: 15px
+ 
+
+}
+
+
+.text-footer {
+ display: inline-flex;
+ justify-content: center;
+
+
+
+}
+
+
+
+@media (max-width: 1200px) {
+    #conteiner-footer {
+        display: none
+    
+    }
+    .footer-mobil {
+        display: block
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

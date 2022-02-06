@@ -126,7 +126,7 @@ h1 {
 
 .btn-forms {
    
-    margin-left: 10%;
+    margin-left: 2%;
     color: white;
     border: none;
     padding: 10px;
@@ -135,6 +135,11 @@ h1 {
 
   
     
+}
+
+.btn-forms:hover {
+    cursor: pointer;
+
 }
 
 .conteiner {
@@ -231,15 +236,23 @@ h1 {
     padding: 30px;  
     text-align: center;
     width: 30%;
+    
   
   
+}
+
+.card:hover {
+    border: 1px solid #8338ec;
 }
 
 #quote {
     background-color: #995CEF;
     color: white;
-    padding: 100px 227px;
+    padding: 91px 227px;
    text-align: center;
+   width: 100vw;
+   margin-left: 0;
+   
 }
 
 .quote-title {
@@ -288,12 +301,18 @@ h1 {
     border: 1px solid #dddfe5;
     border-radius: 8px; 
     padding: 10px 10px; 
-    margin: auto;
+    margin: 1px;
     text-align: center;
     width: 49%;
     height: 356px;
+    display: inline-block;
+    margin-bottom: 27px;
 
 
+}
+
+.image-conteiner:hover {
+border: 1px solid #8338ec;
 }
 
 .imagen-conteiner img {
@@ -315,12 +334,14 @@ font-size: 25px;
     justify-content: center;
     border: 2px solid rgb(230, 222, 222);
     border-radius: 30px;
+
   
 }
 
 .columns {
     display: flex;
-  
+    
+
 
   
     
@@ -399,7 +420,8 @@ padding: 5px;
 .placeholder {
     border-radius: 20px;
     background-color: rgb(235, 228, 228);
-    border: 0
+    border: 0;
+    width: 75%;
   
 
 }
@@ -420,12 +442,12 @@ padding: 5px;
 }
 
 .textarea  {    
-    width: 80%;
+    width: 92%;
    margin-top: 40px;
    border-radius: 10px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   display: inline-block;
+   justify-content: right;
+   margin-right: 33px;
 
     
 
@@ -437,7 +459,7 @@ padding: 5px;
     justify-content: center;
     background-color: #8338ec;
     color: white
-    padding: 80px 20px 60px;
+    padding: 80px 20px 40px;
     text align: center
     
     

@@ -49,7 +49,7 @@ h1 {
     .conteiner-desktop {
         background-color: #FFFFFF;
         margin: 5vw;
-        width: 768px;  
+        width: 700px;  
     }
    
   
@@ -289,7 +289,6 @@ h1 {
     padding: 7%;  
     justify-content: space-between;
 
-  
 
    
 }
@@ -309,6 +308,8 @@ h1 {
 
 
 }
+
+
 
 .image-conteiner:hover {
 border: 1px solid #8338ec;
@@ -476,9 +477,10 @@ padding: 5px;
 
 
 
-.nav-footer ul   {
+.nav-footer ul li   {
     display: inline-block;
     list-style: none;
+    
  
     
   
@@ -489,6 +491,7 @@ padding: 5px;
 .nav-footer {
     text-align: center;
     justify-content: center;
+    font-size: 25px;
    
     
 }

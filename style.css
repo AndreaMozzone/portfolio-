@@ -20,7 +20,9 @@ h1 {
     color: #995CEF;
 }
 
-
+ul {
+    list-style: none;
+}
 
 .conteiner-desktop {
     background-color: #FFFFFF;
@@ -477,13 +479,10 @@ padding: 5px;
 
 
 
-.nav-footer ul li   {
-    display: inline-block;
+.nav-footer    {
+    display: flex;
     list-style: none;
-    
- 
-    
-  
+      
   
 
 }
@@ -491,7 +490,7 @@ padding: 5px;
 .nav-footer {
     text-align: center;
     justify-content: center;
-    font-size: 25px;
+  
    
     
 }

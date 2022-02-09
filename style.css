@@ -20,7 +20,9 @@ h1 {
     color: #995CEF;
 }
 
-
+ul {
+    list-style: none;
+}
 
 .conteiner-desktop {
     background-color: #FFFFFF;
@@ -49,7 +51,7 @@ h1 {
     .conteiner-desktop {
         background-color: #FFFFFF;
         margin: 5vw;
-        width: 768px;  
+        width: 700px;  
     }
    
   
@@ -129,7 +131,7 @@ h1 {
     margin-left: 2%;
     color: white;
     border: none;
-    padding: 10px;
+    padding: 11px;
     width: 20%;
     margin-top: 32px;
 
@@ -289,7 +291,6 @@ h1 {
     padding: 7%;  
     justify-content: space-between;
 
-  
 
    
 }
@@ -309,6 +310,8 @@ h1 {
 
 
 }
+
+
 
 .image-conteiner:hover {
 border: 1px solid #8338ec;
@@ -476,12 +479,10 @@ padding: 5px;
 
 
 
-.nav-footer ul   {
-    display: inline-block;
+.nav-footer    {
+    display: flex;
     list-style: none;
- 
-    
-  
+      
   
 
 }
@@ -489,6 +490,7 @@ padding: 5px;
 .nav-footer {
     text-align: center;
     justify-content: center;
+  
    
     
 }
